@@ -29,6 +29,16 @@ inquirer
       message: "Who are the contributors of this project?",
     },
     {
+      type: "input",
+      name: "usage",
+      message: "What is this project used for?",
+    },
+    {
+      type: "input",
+      name: "test",
+      message: "Describe the test for this project?",
+    },
+    {
       type: "list",
       name: "license",
       message: "Please choose a fitting license for this project",
