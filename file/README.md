@@ -31,8 +31,8 @@
   Kai Dong
 
   ### Questions
-  Contact me for questions at dongkai981@gmail.com
-  Find me on GitHub: https://github.com/kaidong-chr<br />
+  Contact me for questions at dongkai981@gmail.com<br />
+  Find me on GitHub: https://github.com/kaidong-chr
 
   ### License
   ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
