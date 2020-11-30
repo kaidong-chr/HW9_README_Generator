@@ -36,6 +36,11 @@ inquirer
         "Mozilla",
         "Open"
       ]
+    },
+    {
+      type: "input",
+      name: "username",
+      message: "What is your username?",
     }
   ])
   .then((response) => {
