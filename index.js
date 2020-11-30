@@ -69,7 +69,7 @@ function promptUser(){
   ]);
 };
 
-// 
+// README content
 const createReadme = (response) =>
   `# ${response.projectTitle}
 
