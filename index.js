@@ -105,7 +105,7 @@ const createReadme = (response) =>
 
   ### Questions
   Contact me for questions at ${response.email}
-  Find me on GitHub: [${response.username}](https://github.com/${response.username})<br />
+  Find me on GitHub: https://github.com/${response.username}<br />
 
   ### License
   ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />

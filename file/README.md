@@ -1,9 +1,9 @@
-# adsf
+# README Generator
 
-  ![badge](https://img.shields.io/badge/license-Apache-yellow)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
 
   ### Description
-  asdf
+  A node.js application that generates a README.md file.
   
   ## Table of Contents
 - [Description](#description)
@@ -16,24 +16,24 @@
 - [Questions](#questions)
 
   ### Implementation
-  asdf
+  Using node.js, utilized inquirer and util npm packages.
   
   ### Installation
-  asdf
+  npm inquirer and util is required
 
   ### Usage
-  asfasaf
+  U of M Bootcamp assignment
 
   ### Tests
-  
+  No tests for this project
 
   ### Contribution
-  asf
+  Kai Dong
 
   ### Questions
-  Contact me for questions at asf
-  Find me on GitHub: [asfddsa](https://github.com/asfddsa)<br />
+  Contact me for questions at dongkai981@gmail.com
+  Find me on GitHub: https://github.com/kaidong-chr<br />
 
   ### License
-  ![badge](https://img.shields.io/badge/license-Apache-yellow)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
   
