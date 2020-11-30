@@ -75,6 +75,8 @@ function createReadme(response) {
   readMe += `
   # ${response.projectTitle}
 
+  ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
+
   ### Description
   ${response.description}
   
@@ -108,7 +110,6 @@ function createReadme(response) {
   Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 
   ### License
-  
   ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
   `;
   fs.writeFile("./file/README.md", readMe, err => err ? console.log(err) : console.log("README generated!"));
