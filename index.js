@@ -108,7 +108,7 @@ const createReadme = (response) =>
   Find me on GitHub: https://github.com/${response.username}<br />
 
   ### License
-  ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
+  ![badge](https://img.shields.io/badge/license-${response.license}-blue)<br />
   `;
 
   // Async function using util.promisify

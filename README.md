@@ -17,7 +17,7 @@
   ### Demo
 ![Image](./assets/Images/README_Generator.gif "README Demo")
 
-![Image](https://img.shields.io/badge/Languages-html%20%7C%20css%20%7C%20javascript-yellow)
+![Image](https://img.shields.io/badge/Languages-javascript-yellow)
 
   ### Implementation
   Utilized node.js, inquirer and util npm packages.
@@ -39,4 +39,4 @@
   Find me on GitHub: https://github.com/kaidong-chr<br />
 
   ### License
-  ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-blue)<br />
