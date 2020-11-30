@@ -78,19 +78,19 @@ const createReadme = (response) =>
   ### Description
   ${response.description}
   
-  ## Table of Contents
-- [Description](#description)
-- [Implementation](#Implementation)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribution](#Contribution)
-- [Tests](#tests)
-- [Questions](#questions)
+  ### Table of Contents
+  - [Description](#description)
+  - [Implementation](#Implementation)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#Contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ### Implementation
   ${response.implementation}
-  
+
   ### Installation
   ${response.installation}
 

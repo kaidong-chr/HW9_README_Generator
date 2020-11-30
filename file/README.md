@@ -3,29 +3,29 @@
   ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
 
   ### Description
-  A node.js application that generates a README.md file.
+  A node.js app that generate a README file.
   
-  ## Table of Contents
-- [Description](#description)
-- [Implementation](#Implementation)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribution](#Contribution)
-- [Tests](#tests)
-- [Questions](#questions)
+  ### Table of Contents
+  - [Description](#description)
+  - [Implementation](#Implementation)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#Contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ### Implementation
-  Using node.js, utilized inquirer and util npm packages.
-  
+  Utilized node.js, inquirer and util npm packages.
+
   ### Installation
-  npm inquirer and util is required
+  npm install of inquirer and util npm pages are required.
 
   ### Usage
-  U of M Bootcamp assignment
+  U of M Bootcamp homework assignment.
 
   ### Tests
-  No tests for this project
+  No test for this project.
 
   ### Contribution
   Kai Dong
