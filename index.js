@@ -1,8 +1,12 @@
+// Variables and dependencies
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require("util");
+const writeFileAsync = util.promisify(fs.writeFile);
 
-inquirer
-  .prompt([
+// Prompt user questions for our README
+function promptUser(){
+  return inquirer.prompt([
     {
         type: "input",
         name: "projectTitle",
@@ -62,18 +66,12 @@ inquirer
       name: "email",
       message: "What is your email address?",
     }
-  ])
-  .then((response) => {
-    console.log(response);
-    createReadme(response);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
-function createReadme(response) {
-  let readMe ="";
-  readMe += `
-  # ${response.projectTitle}
+  ]);
+};
+
+// 
+const createReadme = (response) =>
+  `# ${response.projectTitle}
 
   ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
 
@@ -107,10 +105,22 @@ function createReadme(response) {
 
   ### Questions
   Contact me for questions at ${response.email}
-  Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+  Find me on GitHub: [${response.username}](https://github.com/${response.username})<br />
 
   ### License
   ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
   `;
-  fs.writeFile("./file/README.md", readMe, err => err ? console.log(err) : console.log("README generated!"));
-}
+
+  // Async function using util.promisify
+  const init = async () => {
+  try {
+      const response = await promptUser();
+      const generateContent = createReadme(response);
+      await writeFileAsync('./file/README.md', generateContent);
+      console.log('README generated!');
+  }   catch(err) {
+      console.log(err);
+  }
+};
+
+init();
