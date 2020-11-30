@@ -26,7 +26,8 @@ inquirer
     {
       type: "list",
       name: "license",
-      message: [
+      message: "Please choose a fitting license for this project",
+      choices: [
         "Apache",
         "Academic",
         "GNU",
@@ -49,8 +50,8 @@ function createReadme(response) {
   readMe += `
   # ${response.projectTitle}
 
-  ### Portfolio Page
-  Welcome to my portfolio page, you will find my biography with links to linkedIn, Github, and my resume in the About page. Past projects with repository links can be found on the Portfolio page and you will find a place to enter you contact info in the Contact page. This portfolio is a work in progress, more will get added in the future.
+  ### Description
+  ${response.projectTitle}
   
   ### Implementation
   ${response.implementation}
@@ -60,7 +61,7 @@ function createReadme(response) {
   
   ### License
   
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br />
   `;
-  fs.writeFileAsync("./file/README.md", readMe, error => error ? console.log(error) : console.log("README generated!"));
+  fs.writeFile("./file/README.md", readMe, error => error ? console.log(error) : console.log("README generated!"));
 }
