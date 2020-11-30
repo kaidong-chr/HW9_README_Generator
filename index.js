@@ -24,6 +24,11 @@ inquirer
       message: "Describe the installation process.",
     },
     {
+      type: "input",
+      name: "contribution",
+      message: "Who are the contributors of this project?",
+    },
+    {
       type: "list",
       name: "license",
       message: "Please choose a fitting license for this project",
@@ -41,6 +46,11 @@ inquirer
       type: "input",
       name: "username",
       message: "What is your username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
     }
   ])
   .then((response) => {
