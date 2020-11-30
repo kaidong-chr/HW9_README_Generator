@@ -78,6 +78,16 @@ function createReadme(response) {
   ### Description
   ${response.description}
   
+  ## Table of Contents
+- [Description](#description)
+- [Implementation](#Implementation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#Contribution)
+- [Tests](#tests)
+- [Questions](#questions)
+
   ### Implementation
   ${response.implementation}
   
@@ -93,7 +103,7 @@ function createReadme(response) {
   ### Contribution
   ${response.contribution}
 
-  ### Contact info
+  ### Questions
   Contact me for questions at ${response.email}
   Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 
