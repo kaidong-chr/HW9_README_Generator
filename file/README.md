@@ -3,7 +3,7 @@
   ![badge](https://img.shields.io/badge/license-MIT-yellow)<br />
 
   ### Description
-  A node.js app that generate a README file.
+  A node.js app that generates a README file.
   
   ### Table of Contents
   - [Description](#description)
@@ -19,7 +19,7 @@
   Utilized node.js, inquirer and util npm packages.
 
   ### Installation
-  npm install of inquirer and util npm pages are required.
+  npm install of inquirer and util are reqiured.
 
   ### Usage
   U of M Bootcamp homework assignment.
