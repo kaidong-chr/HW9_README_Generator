@@ -1,16 +1,16 @@
 
-  # test project
+  # this is a test
 
   ### Description
-  test project
+  this is a test
   
   ### Implementation
-  using nodejs
+  node.js and stuff
   
   ### Installation
-  generic
+  install it now
   
   ### License
   
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-GNU-yellow)<br />
   

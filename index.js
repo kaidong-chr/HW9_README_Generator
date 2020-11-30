@@ -61,7 +61,7 @@ function createReadme(response) {
   
   ### License
   
-  ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
   `;
-  fs.writeFile("./file/README.md", readMe, error => error ? console.log(error) : console.log("README generated!"));
+  fs.writeFile("./file/README.md", readMe, err => err ? console.log(err) : console.log("README generated!"));
 }
