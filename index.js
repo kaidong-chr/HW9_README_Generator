@@ -51,7 +51,7 @@ function createReadme(response) {
   # ${response.projectTitle}
 
   ### Description
-  ${response.projectTitle}
+  ${response.description}
   
   ### Implementation
   ${response.implementation}
