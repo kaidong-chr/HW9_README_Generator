@@ -83,7 +83,20 @@ function createReadme(response) {
   
   ### Installation
   ${response.installation}
-  
+
+  ### Usage
+  ${response.usage}
+
+  ### Tests
+  ${response.test}
+
+  ### Contribution
+  ${response.contribution}
+
+  ### Contact info
+  Contact me for questions at ${response.email}
+  Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+
   ### License
   
   ![badge](https://img.shields.io/badge/license-${response.license}-yellow)<br />
